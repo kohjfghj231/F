@@ -1,0 +1,26 @@
+{
+  "name": "ai-girlfriend-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "AI Girlfriend Bot with Telegram integration and web interface",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "bot": "node src/bot/telegram-bot.js",
+    "web": "node src/web/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["telegram", "bot", "ai", "girlfriend", "chatbot", "nodejs"],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^5.9.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  }
+}
+
